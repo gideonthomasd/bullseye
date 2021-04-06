@@ -1,0 +1,5 @@
+^sep()
+Kill jgmenu, pkill jgmenu
+Restart,systemctl -i reboot,system-reboot
+Log Out, ~/.config/jgmenu/logoff.sh
+Power Off,systemctl -i poweroff,system-shutdown
