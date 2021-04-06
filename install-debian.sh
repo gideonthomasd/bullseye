@@ -8,6 +8,10 @@ sudo apt install polybar -yy
 
 cp spectrwm.conf ~/.spectrwm.conf
 
+chmod +x *.sh
+
+cp jgmenu_create.sh ~/jgmenu_create.sh
+
 mkdir -p ~/.config/jgmenu
 mkdir -p ~/.config/openbox
 mkdir -p ~/.config/plank
