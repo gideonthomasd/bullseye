@@ -2,7 +2,7 @@
 
 sudo apt install xorg xserver-xorg xutils mesa-utils xinit openbox obconf spectrwm dmenu lxappearance git sakura xterm feh nitrogen firefox-esr thunar materia-gtk-theme deepin-icon-theme -yy
 
-sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontrol lightdm fonts-font-awesome rofi gsimplecal curl lemonbar sxhkd wget youtube-dl -yy
+sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontrol lightdm fonts-font-awesome rofi gsimplecal curl lemonbar sxhkd wget youtube-dl plank -yy
 
 sudo apt install polybar -yy
 
