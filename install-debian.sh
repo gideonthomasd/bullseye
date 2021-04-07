@@ -19,6 +19,7 @@ mkdir -p ~/.config/polybar
 mkdir -p ~/.config/sakura
 mkdir -p ~/.config/spectrwm
 mkdir -p ~/.config/tint2
+mkdir -p ~/.config/i3
 
 mkdir -p ~/.icons/default
 
