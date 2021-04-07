@@ -1,12 +1,12 @@
 #!/bin/sh
 
-sudo apt install xorg xserver-xorg xutils mesa-utils xinit openbox obconf spectrwm dmenu lxappearance git sakura xterm feh nitrogen firefox-esr thunar materia-gtk-theme deepin-icon-theme -yy
+sudo apt install xorg xserver-xorg xutils mesa-utils xinit openbox obconf i3 dmenu lxappearance git sakura xterm feh nitrogen firefox-esr thunar materia-gtk-theme deepin-icon-theme -yy
 
-sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontrol lightdm fonts-font-awesome rofi gsimplecal curl lemonbar sxhkd wget youtube-dl plank -yy
+sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontrol lightdm fonts-font-awesome rofi gsimplecal curl lemonbar sxhkd wget youtube-dl plank lxtask lxpolkit vlc -yy
 
 sudo apt install polybar -yy
 
-cp spectrwm.conf ~/.spectrwm.conf
+#cp spectrwm.conf ~/.spectrwm.conf
 
 chmod +x *.sh
 
@@ -20,6 +20,8 @@ mkdir -p ~/.config/sakura
 mkdir -p ~/.config/spectrwm
 mkdir -p ~/.config/tint2
 
+mkdir -p ~/.icons/default
+
 
 cd openbox
 chmod +x *.sh
@@ -32,7 +34,7 @@ chmod +x *.sh
 cd ..
 cd ..
 
-cd spectrwm
+cd jgmenu
 chmod +x *.sh
 cd ..
 
@@ -57,13 +59,15 @@ cd sakura
 cp -r * ~/.config/sakura
 cd ..
 
-cd spectrwm
-cp -r * ~/.config/spectrwm
+cd i3
+cp -r * ~/.config/i3
 cd ..
 
 cd tint2
 cp -r * ~/.config/tint2
 cd ..
+
+cp index.theme ~/.icons/default/index.theme
 
 sudo dpkg -i jgmenu_4.3.0-1+b1_amd64.deb
 
