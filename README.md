@@ -8,4 +8,4 @@ cd bullseye
 
 chmod +x *.sh
 
-./debian-install.sh
+./install-debian.sh
