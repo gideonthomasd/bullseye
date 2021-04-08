@@ -1,0 +1,10 @@
+########################To format USB#####################
+df #to find sdb1
+
+sudo umount /dev/sdb1
+sudo mkfs.vat /dev/sdb1
+
+sudo fsck /dev/sdb1 #to check
+
+##############################To put in disk##################
+sudo dd if=~/Downloads/debian-live-10.0.0-amd64-gnome.iso of=/dev/sdb bs=1M status=progress
