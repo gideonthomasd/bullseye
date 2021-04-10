@@ -6,7 +6,7 @@ sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontr
 
 sudo apt install polybar -yy
 
-#cp spectrwm.conf ~/.spectrwm.conf
+cp spectrwm.conf ~/.spectrwm.conf
 
 chmod +x *.sh
 
@@ -66,6 +66,10 @@ cd ..
 
 cd tint2
 cp -r * ~/.config/tint2
+cd ..
+
+cd spectrwm
+cp -r * ~/.config/spectrwm
 cd ..
 
 cp index.theme ~/.icons/default/index.theme
