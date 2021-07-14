@@ -9,7 +9,6 @@ sudo apt install flatpak -yy
 sudo apt install polybar -yy
 
 cp spectrwm.conf ~/.spectrwm.conf
-cp bashrc ~/.bashrc
 
 chmod +x *.sh
 
