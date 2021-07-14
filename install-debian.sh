@@ -84,8 +84,12 @@ sudo systemctl unmask lightdm.service
 sudo systemctl daemon-reload
 
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install snapd
+sudo snap install core
 
 sudo systemctl --user restart pulseaudio.service
+sudo snap install snap-store
+echo "SNAP: For menu entry copy /var/lib/snapd/desktop/applications to /home/phil/.local/share/applications"
 
 
 
