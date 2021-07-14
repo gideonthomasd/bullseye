@@ -88,6 +88,8 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 sudo apt install snapd
 sudo snap install core
 
+echo "PATH=$PATH:/snap/bin" >> .bashrc
+
 sudo systemctl --user restart pulseaudio.service
 sudo snap install snap-store
 echo "SNAP: For menu entry copy /var/lib/snapd/desktop/applications to /home/phil/.local/share/applications"
