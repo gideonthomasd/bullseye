@@ -1,9 +1,9 @@
 
 setxkbmap gb &
 xcompmgr &
-xrandr -s 1920x1080 &
+#xrandr -s 1920x1080 &
 tint2 &
 plank &
-feh --bg-scale ~/Pictures/wallpapers/02.jpg &
-~/.config/openbox/mem.sh | lemonbar -f '-Adobe-Courier-Medium-R-Normal--24-240-75-75-M-150-ISO8859-1' &
+~/.config/i3/testwallpaper &
+#~/.config/openbox/mem.sh | lemonbar -f '-Adobe-Courier-Medium-R-Normal--24-240-75-75-M-150-ISO8859-1' &
 

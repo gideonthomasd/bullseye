@@ -12,7 +12,7 @@
   <separator />
   
   <item label="Terminal emulator">
-    <action name="Execute"><execute>sakura</execute></action>
+    <action name="Execute"><execute>lxterminal</execute></action>
   </item>
   <item label="Web browser">
     <action name="Execute"><execute>firefox</execute></action>
@@ -20,7 +20,10 @@
   <item label="Thunar">
     <action name="Execute"><execute>thunar</execute></action>
   </item>
-  <!-- This requires the presence of the 'openbox-menu' package to work -->
+  <item label="Menu">
+    <action name="Execute"><execute>jgmenu_run</execute></action>
+  </item>
+ !-- This requires the presence of the 'openbox-menu' package to work -->
   <menu id="/Debian" />
   <separator />
   <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/>
