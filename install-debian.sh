@@ -4,7 +4,7 @@ sudo apt install xorg xserver-xorg xutils mesa-utils xinit openbox obconf i3 dme
 
 sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontrol lightdm fonts-font-awesome rofi gsimplecal curl lemonbar sxhkd wget youtube-dl plank lxtask lxpolkit vlc spectrwm -yy
 
-sudo apt install flatpak -yy
+sudo apt install parcellite flatpak -yy
 
 sudo apt install polybar -yy
 
