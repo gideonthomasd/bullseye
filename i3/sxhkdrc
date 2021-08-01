@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	sakura
+	lxterminal 
 # For transparency do yay -S ....
 # program launcher
 super + p
@@ -13,7 +13,7 @@ super + p
 ctrl + g
 	geany
 	
-super + v
+ctrl + v
 	pavucontrol
 
 super + d
@@ -35,19 +35,23 @@ super + F5
 	blueman-manager
 	
 super + x
-	arcolinux-logout
+	bl-exit
 
 F9
-  firefox
+ snap run brave
 
 F10
-	~/jgmenu_create.sh
+	jgmenu_run
 
 F11
         xfce4-terminal --drop-down
 	
 F12
 	thunar
+	
+ctrl + Right
+	feh --bg-scale --randomize ~/Pictures/wallpapers/*
+
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -160,7 +164,7 @@ super + Escape
 #	bspc node -v {-20 0,0 20,0 -20,20 0}
 # MINE #############################################
 ~button2
-	~/jgmenu_create.sh
+	jgmenu_run
 	
 # Move window and move with it
 #alt + super + Right
