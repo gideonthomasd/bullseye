@@ -24,6 +24,7 @@ mkdir -p ~/.config/tint2
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/i3blocks
 mkdir -p ~/.local/share/applications
+mkdir -p ~/.config/lxterminal
 
 mkdir -p ~/.icons/default
 
@@ -87,6 +88,7 @@ cd ..
 
 cp vim.desktop ~/.local/share/applications/vim.desktop
 cp powermenu.sh ~/powermenu.sh
+cp lxterminal.conf ~/.config/lxterminal/lxterminal.conf
 
 cp index.theme ~/.icons/default/index.theme
 
