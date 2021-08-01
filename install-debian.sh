@@ -86,6 +86,7 @@ cp -r * ~/.config/spectrwm
 cd ..
 
 cp vim.desktop ~/.local/share/applications/vim.desktop
+cp powermenu.sh ~/powermenu.sh
 
 cp index.theme ~/.icons/default/index.theme
 
