@@ -22,8 +22,15 @@ mkdir -p ~/.config/sakura
 mkdir -p ~/.config/spectrwm
 mkdir -p ~/.config/tint2
 mkdir -p ~/.config/i3
+mkdir -p ~/.config/i3blocks
+mkdir -p ~/.local/share/applications
 
 mkdir -p ~/.icons/default
+
+cd i3blocks
+chmod +x *.*
+cd ..
+
 
 
 cd openbox
@@ -66,6 +73,10 @@ cd i3
 cp -r * ~/.config/i3
 cd ..
 
+cd i3blocks
+cp -r * ~/.config/i3blocks
+cd ..
+
 cd tint2
 cp -r * ~/.config/tint2
 cd ..
@@ -73,6 +84,8 @@ cd ..
 cd spectrwm
 cp -r * ~/.config/spectrwm
 cd ..
+
+cp vim.desktop ~/.local/share/applications/vim.desktop
 
 cp index.theme ~/.icons/default/index.theme
 
