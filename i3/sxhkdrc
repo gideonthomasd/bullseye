@@ -20,7 +20,7 @@ super + d
         doublecmd
 	
 super + F1
-	firefox
+	snap run firefox
 
 super + F2
 	pcmanfm
@@ -41,7 +41,7 @@ F9
  snap run brave
 
 F10
-	jgmenu_run
+	~/jgmenu_create.sh
 
 F11
         xfce4-terminal --drop-down
@@ -164,7 +164,7 @@ super + Escape
 #	bspc node -v {-20 0,0 20,0 -20,20 0}
 # MINE #############################################
 ~button2
-	jgmenu_run
+	~/jgmenu_create.sh
 	
 # Move window and move with it
 #alt + super + Right
