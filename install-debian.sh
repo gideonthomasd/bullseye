@@ -36,6 +36,10 @@ chmod +x dwmweather
 
 cd ..
 
+cd i3
+chmod +x testwallpaper
+cd ..
+
 
 
 cd openbox
