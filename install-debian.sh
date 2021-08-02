@@ -124,7 +124,7 @@ sudo systemctl --user restart pulseaudio.service
 sudo snap install snap-store
 echo "SNAP: For menu entry copy /var/lib/snapd/desktop/applications to /home/phil/.local/share/applications"
 echo "SNAP : From sxhkd do 'snap run brave' instead of just 'brave' "
-
+echo "Appimage: Get appimagelauncher from releases.  Do 'appimagelauncher-lite...AppImage install' in terminal."
 
 
 
