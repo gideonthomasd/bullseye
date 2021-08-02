@@ -1,6 +1,6 @@
 position_mode = center
-columns = 3
-menu_width = 950
+columns = 4
+menu_width = 1000
 menu_height_min = 710
 menu_height_max = 710
 menu_padding_top = 15
