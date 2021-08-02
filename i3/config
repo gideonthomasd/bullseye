@@ -190,7 +190,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
 		position top
-		font pango: Mononoki Nerd Font 15
+		font pango: Mononoki Nerd Font 13
 #        #status_command i3status -c /home/phil/.config/i3/i3status.conf
         status_command i3blocks -c /home/phil/.config/i3blocks/i3blocks.conf
 }
