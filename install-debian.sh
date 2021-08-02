@@ -25,6 +25,7 @@ mkdir -p ~/.config/i3
 mkdir -p ~/.config/i3blocks
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.config/lxterminal
+mkdir -p ~/.config/rofi
 
 mkdir -p ~/.icons/default
 
@@ -57,6 +58,9 @@ cd jgmenu
 chmod +x *.sh
 cd ..
 
+cd rofi
+cp -r * ~/.config/rofi
+cd ..
 
 cd jgmenu
 cp -r * ~/.config/jgmenu
