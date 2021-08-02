@@ -35,7 +35,7 @@ super + F5
 	blueman-manager
 	
 super + x
-	bl-exit
+	~/powermenu.sh
 
 F9
  snap run brave
