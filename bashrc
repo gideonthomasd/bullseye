@@ -165,4 +165,4 @@ alias poly="~/.config/polybar/launch.sh"
 #########To make xterm transparent
 #[ -n "$XTERM_VERSION" ] && transset-df --id "$WINDOWID" >/dev/null
 
-#neofetch
+neofetch
