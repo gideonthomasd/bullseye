@@ -107,6 +107,8 @@ cp lxterminal.conf ~/.config/lxterminal/lxterminal.conf
 
 cp index.theme ~/.icons/default/index.theme
 
+cp bashrc ~/.bashrc
+
 sudo dpkg -i jgmenu_4.3.0-1+b1_amd64.deb
 
 sudo systemctl enable lightdm.service
