@@ -6,7 +6,7 @@ sudo apt install tint2 xcompmgr geany unzip build-essential pulseaudio pavucontr
 
 sudo apt install parcellite lxterminal vim i3blocks breeze-cursor-theme breeze-gtk-theme breeze-icon-theme gparted ark neofetch flatpak i3lock-fancy -yy
 
-sudo apt install polybar -yy
+sudo apt install lightdm-gtk-greeter lightdm-gtk-greeter-settings polybar -yy
 
 cp spectrwm.conf ~/.spectrwm.conf
 
@@ -129,5 +129,5 @@ echo "SNAP : From sxhkd do 'snap run brave' instead of just 'brave' "
 echo "Appimage: Get appimagelauncher from releases.  Do 'appimagelauncher-lite...AppImage install' in terminal."
 echo "Get Beautyline icon from gnome.  Extract and copy into /usr/share/icons."
 echo "Get Prismatic theme and put in .themmes folder.  Obconf"
-
+echo "greeter-hide-users=false  in /etc/lightdm/lightdm.conf"
 
